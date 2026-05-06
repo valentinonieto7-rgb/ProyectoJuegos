@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+  background-color: black;   /* fondo negro */
+  color: white;              /* texto blanco */
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Imágenes adaptables */
+img {
+  max-width: 100%;   /* nunca más grande que la pantalla */
+  height: auto;
+}
+
+/* Botones */
+button {
+  background-color: #00ff99; /* verde gamer */
+  color: black;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #00cc77; 
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 18px; 
+  }
+
+  button {
+    width: 100%;     
+    font-size: 1.2em;
+  }
+}
