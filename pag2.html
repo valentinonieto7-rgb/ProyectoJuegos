@@ -1,51 +1,51 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
- <style>
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-button {
-      background-color: #00ffcc;
-      color: black;
-      border: none;
-      padding: 10px 20px;
-      margin: 10px;
-      border-radius: 5px;
-      font-family: 'Courier New', monospace;
-      cursor: pointer;
-      vertical-align: bottom;
-    }
-
- </style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/style.css">
-
-<h1>Emuladores</h1>
-
-<h2>⚠Enlances a paginas oficiales⚠</h2>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emuladores</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
-<a href="index.html"><button>Volver</button></a>
+  <main class="content-page">
+    <header class="page-header">
+      <div>
+        <h1>Emuladores</h1>
+        <p class="page-intro">⚠ Enlaces a páginas oficiales ⚠</p>
+      </div>
+      <div class="button-row">
+        <a class="button" href="index.html">Volver</a>
+      </div>
+    </header>
 
-<h2>Dolphin (GameCube/Wii)</h2>
-<img src="Imagenes/wii.png" width="250" height="150">
-<a href="https://es.dolphin-emu.org/?cr=es"><button>Descargar</button></a>
+    <section class="grid-list">
+      <article class="item-card">
+        <img src="Imagenes/wii.png" alt="Dolphin Wii">
+        <div class="item-info">
+          <h2>Dolphin (GameCube/Wii)</h2>
+          <a class="button" href="https://es.dolphin-emu.org/?cr=es">Descargar</a>
+        </div>
+      </article>
 
-<h2>PPSSPP (PlayStation Portable)</h2>
-<img src="Imagenes/ppsspp-logo.png" width="250" height="150">
-<a href="https://www.ppsspp.org/"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/ppsspp-logo.png" alt="PPSSPP">
+        <div class="item-info">
+          <h2>PPSSPP (PlayStation Portable)</h2>
+          <a class="button" href="https://www.ppsspp.org/">Descargar</a>
+        </div>
+      </article>
 
-<h2>PCSX2 (PlayStation 2)</h2>
-<img src="Imagenes/ps2emu.png" width="250" height="150">
-<a href="https://pcsx2.net/"><button>Descargar</button></a>
-<a href="https://ps2biosonline.com/"><button>Descargar Bios PS2</button></a>
-
-    
+      <article class="item-card">
+        <img src="Imagenes/ps2emu.png" alt="PCSX2">
+        <div class="item-info">
+          <h2>PCSX2 (PlayStation 2)</h2>
+          <div class="button-row wrap">
+            <a class="button" href="https://pcsx2.net/">Descargar</a>
+            <a class="button" href="https://ps2biosonline.com/">Descargar Bios PS2</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
-
 </html>

@@ -1,72 +1,89 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
- <style>
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-button {
-      background-color: #00ffcc;
-      color: black;
-      border: none;
-      padding: 10px 20px;
-      margin: 10px;
-      border-radius: 5px;
-      font-family: 'Courier New', monospace;
-      cursor: pointer;
-      vertical-align: bottom;
-    }
-
- </style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style/style.css">
-
-<h1>Juegos</h1>
-<h2>Link sacado de optijuegos.net</h2>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juegos</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
-<a href="index.html"><button>Volver</button></a>
+  <main class="content-page">
+    <header class="page-header">
+      <div>
+        <h1>Juegos</h1>
+        <p class="page-intro">Link sacado de optijuegos.net</p>
+      </div>
+      <div class="button-row">
+        <a class="button" href="index.html">Volver</a>
+      </div>
+    </header>
 
-<h2>Half life</h2>
-<img src="Imagenes/Half-life.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/2y1tl2cg7ugn3y4"><button>Descargar</button></a>
+    <section class="grid-list">
+      <article class="item-card">
+        <img src="Imagenes/Half-life.png" alt="Half life">
+        <div class="item-info">
+          <h2>Half life</h2>
+          <a class="button" href="https://www.mediafire.com/file/2y1tl2cg7ugn3y4">Descargar</a>
+        </div>
+      </article>
 
-<h2>Hollow Knight: </h2>
-<h2>(❗Peligro SOMNIFERO❗)</h2>
-<img src="Imagenes/hollow.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/e5mm2clivttvxgk"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/hollow.png" alt="Hollow Knight">
+        <div class="item-info">
+          <h2>Hollow Knight</h2>
+          <p class="warning">❗Peligro SOMNÍFERO❗</p>
+          <a class="button" href="https://www.mediafire.com/file/e5mm2clivttvxgk">Descargar</a>
+        </div>
+      </article>
 
-<h1>Counter Strike 1.6</h1>
-<img src="Imagenes/cs.16.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/ag28b7eumf10go2"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/cs.16.png" alt="Counter Strike 1.6">
+        <div class="item-info">
+          <h2>Counter Strike 1.6</h2>
+          <a class="button" href="https://www.mediafire.com/file/ag28b7eumf10go2">Descargar</a>
+        </div>
+      </article>
 
-<h1>Mortal Kombat 9 </h1>
-<img src="Imagenes/mk9.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/gbnnyxakrp269st"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/mk9.png" alt="Mortal Kombat 9">
+        <div class="item-info">
+          <h2>Mortal Kombat 9</h2>
+          <a class="button" href="https://www.mediafire.com/file/gbnnyxakrp269st">Descargar</a>
+        </div>
+      </article>
 
-<h1>The Forest</h1>
-<img src="Imagenes/theforest.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/tn9l13cybhm2dzu"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/theforest.png" alt="The Forest">
+        <div class="item-info">
+          <h2>The Forest</h2>
+          <a class="button" href="https://www.mediafire.com/file/tn9l13cybhm2dzu">Descargar</a>
+        </div>
+      </article>
 
-<h1>Geometry Dash</h1>
-<img src="Imagenes/GD.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/4oqkhsbyplv3ry0"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/GD.png" alt="Geometry Dash">
+        <div class="item-info">
+          <h2>Geometry Dash</h2>
+          <a class="button" href="https://www.mediafire.com/file/4oqkhsbyplv3ry0">Descargar</a>
+        </div>
+      </article>
 
-<h1>Devil may cry </h1>
-<img src="Imagenes/image (2).png" width="250" height="150">
-<a href="https://gofile.io/d/u73lpL"><button>Descargar</button></a>
- 
-<h1>Fallout:New Vegas</h1>
-<img src="Imagenes/FalloutNV.png" width="250" height="150">
-<a href="https://www.mediafire.com/file/jri4y8qvwvakbfo"><button>Descargar</button></a>
+      <article class="item-card">
+        <img src="Imagenes/image (2).png" alt="Devil May Cry">
+        <div class="item-info">
+          <h2>Devil May Cry</h2>
+          <a class="button" href="https://gofile.io/d/u73lpL">Descargar</a>
+        </div>
+      </article>
 
-    
+      <article class="item-card">
+        <img src="Imagenes/FalloutNV.png" alt="Fallout: New Vegas">
+        <div class="item-info">
+          <h2>Fallout: New Vegas</h2>
+          <a class="button" href="https://www.mediafire.com/file/jri4y8qvwvakbfo">Descargar</a>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
-
 </html>
